@@ -93,4 +93,3 @@ class Salt
     }
 
 }
-echo Salt::getGenerator()->salt("hello", 2048);
