@@ -34,7 +34,6 @@ class Salt
         $salt = "";
         foreach($bytes as $byte) {
             if(!is_int($byte)) {
-                //echo "I found lenny</br>";
                 $salt .= $byte;
             } else {
                 $salt .= chr($byte);
